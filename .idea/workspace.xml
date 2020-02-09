@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4485787c-c602-4348-bc16-a054d57895de" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XRgvX6YErxVQcegfIqaPD3tGW9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.JavaGame">
+    <configuration name="JavaGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.external.game.mvs.JavaGame" />
+      <module name="JavaGame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Rhombus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Rhombus" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Rhombus/src/com/company" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JavaGame" />
+        <item itemvalue="Application.Rhombus" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4485787c-c602-4348-bc16-a054d57895de" name="Default Changelist" comment="" />
+      <created>1581014551991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581014551991</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="410" y="67" key="#Rhombus" timestamp="1581022962703">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="410" y="67" key="#Rhombus/0.0.1364.728@0.0.1364.728" timestamp="1581022962703" />
+    <state x="487" y="84" key="#com.intellij.ide.util.MemberChooser" timestamp="1581188590411">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="487" y="84" key="#com.intellij.ide.util.MemberChooser/0.0.1364.728@0.0.1364.728" timestamp="1581188590411" />
+    <state x="413" y="188" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581022960109">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="413" y="188" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1364.728@0.0.1364.728" timestamp="1581022960109" />
+    <state x="463" y="156" key="FileChooserDialogImpl" timestamp="1581022942827">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="463" y="156" key="FileChooserDialogImpl/0.0.1364.728@0.0.1364.728" timestamp="1581022942827" />
+    <state width="1321" height="162" key="GridCell.Tab.0.bottom" timestamp="1581192977935">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state width="1321" height="162" key="GridCell.Tab.0.bottom/0.0.1364.728@0.0.1364.728" timestamp="1581192977935" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581082984664" />
+    <state width="1321" height="162" key="GridCell.Tab.0.center" timestamp="1581192977935">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state width="1321" height="162" key="GridCell.Tab.0.center/0.0.1364.728@0.0.1364.728" timestamp="1581192977935" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581082984663" />
+    <state width="1321" height="162" key="GridCell.Tab.0.left" timestamp="1581192977935">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state width="1321" height="162" key="GridCell.Tab.0.left/0.0.1364.728@0.0.1364.728" timestamp="1581192977935" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581082984663" />
+    <state width="1321" height="162" key="GridCell.Tab.0.right" timestamp="1581192977935">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state width="1321" height="162" key="GridCell.Tab.0.right/0.0.1364.728@0.0.1364.728" timestamp="1581192977935" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581082984664" />
+    <state x="66" y="0" key="new project wizard" timestamp="1581166440201">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="66" y="0" key="new project wizard/0.0.1364.728@0.0.1364.728" timestamp="1581166440201" />
+    <state x="338" y="162" key="run.anything.popup" timestamp="1581171806673">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="338" y="162" key="run.anything.popup/0.0.1364.728@0.0.1364.728" timestamp="1581171806673" />
+  </component>
+</project>
