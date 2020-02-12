@@ -1,34 +1,47 @@
 package ua.external.game.mvs;
-public class Model {
-    private int value;
-    private int rand = (int) ( Math.random() * 101  );
-    private int min_limit = 0;
-    private int max_limit = 100;
-    private int attempt = 10;
-    public int getAttempt() {
-        return attempt;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Model implements GlobalConstants {
+    private int secretValue;
+    private int min_limit ;
+    private int max_limit ;
+    private List<Integer> userValue = new ArrayList<Integer>();
+
+    public boolean checkValue (int value){
+        userValue.add(value);
+        if (value == secretValue){
+            return true;
+        } else if (value > secretValue){
+            max_limit = value;
+        } else {
+            min_limit = value;
+        }
+        return false;
     }
-    public int getValue() {
-        return value;
+
+    public void setPrimaryLimit(int max_limit ,int min_limit) {
+        this.max_limit = max_limit;
+        this.min_limit = min_limit;
     }
-    public void setValue(int value) {
-        this.value = value;
+    public void setSecretValue() {
+        this.secretValue = (int) Math.ceil(Math.random()*(max_limit
+                - min_limit - 1) + min_limit);
     }
-    public int getRand() {
-        return rand;
+    public int getSecretValue() {
+        return secretValue;
     }
     public int getMin_limit() {
         return min_limit;
     }
-    public void setMin_limit(int min_limit) {
-        this.min_limit = min_limit;
-    }
     public int getMax_limit() {
         return max_limit;
     }
-    public void setMax_limit(int max_limit) {
-        this.max_limit = max_limit;
+
+    public List<Integer> getUserValue() {
+        return userValue;
     }
+
     public Model() {
     }
 }

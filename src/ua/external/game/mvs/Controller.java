@@ -4,50 +4,50 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Controller {
-    private View view;
-    private Model model;
+    private View viewGameProcess;
+    private Model modelImplementation;
 
-    public Controller(Model model, View view) {
-        this.view = view;
-        this.model = model;
+    public Controller(Model modelImplementation, View viewGameProcess) {
+        this.viewGameProcess = viewGameProcess;
+        this.modelImplementation = modelImplementation;
     }
 
     public void processUser()  {
+
+        modelImplementation.setPrimaryLimit(GlobalConstants.PRIMARY_MAX_LIMIT,GlobalConstants.PRIMARY_MIN_LIMIT);
+
+        modelImplementation.setSecretValue();
+
+        viewGameProcess.printWelcome();
+
         BufferedReader br = new BufferedReader(new	InputStreamReader(System.in));
-        view.printWelcome(model.getMin_limit(), model.getMax_limit());
-        for(int i = 1; i <= model.getAttempt(); i++) {
-            view.printMessage(View.ATTEMPT + i);
-            view.inputInteger(model.getMin_limit(), model.getMax_limit());
-            model.setValue(Input_Int(br));
-            if (model.getValue() < model.getRand()) {
-                model.setMin_limit(model.getValue());
-                view.printMessage(model.getValue() + View.VALUE_LESS);
-            } else if (model.getValue() > model.getRand()) {
-                model.setMax_limit(model.getValue());
-                view.printMessage(model.getValue() + View.VALUE_MORE);
-            } else if(model.getValue() == model.getRand()) {
-                if (i == 1) view.printMessage(View.WIN_FIRST_ATTEMPT);
-                else view.printWin(i);
-                return;
-            }
-        } view.printMessage(View.Lose);
+
+        while (!modelImplementation.checkValue(Input_Int(br)));
+
+        viewGameProcess.printWin();
+        viewGameProcess.printStory(modelImplementation);
+
     }
     private int Input_Int(BufferedReader br) {
-        int inputValue= 0;
-        do {
-            try {
-                inputValue = Integer.parseInt(br.readLine());
-                if(inputValue < model.getMin_limit()
-                        || inputValue > model.getMax_limit()){
-                    inputValue = 0;
-                    view.printMessage(View.WRONG_INPUT_DATA);
-                    view.inputInteger(model.getMin_limit(), model.getMax_limit());
+        int inputValue = 0;
+        while (true) {
+            do {
+                viewGameProcess.printMessage(viewGameProcess.getInputMessage(modelImplementation.getMin_limit(),
+                        modelImplementation.getMax_limit()));
+
+                try {
+                    inputValue = Integer.parseInt(br.readLine());
+                    if (inputValue < modelImplementation.getMin_limit()
+                            || inputValue > modelImplementation.getMax_limit()) {
+                        inputValue = 0;
+                        viewGameProcess.wrongInput();
+                    }
+                } catch (NumberFormatException | IOException e) {
+                    viewGameProcess.wrongInput();
                 }
-            } catch (NumberFormatException | IOException e) {
-                view.printMessage(View.WRONG_INPUT_DATA);
-                view.inputInteger(model.getMin_limit(), model.getMax_limit());
-            }
-        }while(inputValue == 0);
-        return inputValue;
+            } while (inputValue == 0);
+            return inputValue;
+
+        }
     }
 }
