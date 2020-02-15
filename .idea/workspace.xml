@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4485787c-c602-4348-bc16-a054d57895de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/resourceBundles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/property/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/property/messages_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/property/messages_uk_UA.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/external/game/mvs/GlobalConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/ua/external/game/mvs/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/ua/external/game/mvs/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/ua/external/game/mvs/JavaGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/ua/external/game/mvs/JavaGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/ua/external/game/mvs/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/ua/external/game/mvs/Model.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaGame/ua/external/game/mvs/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaGame/ua/external/game/mvs/View.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/external/game/mvs/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/game/mvs/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/external/game/mvs/JavaGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/game/mvs/JavaGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/external/game/mvs/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/game/mvs/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/external/game/mvs/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/external/game/mvs/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,25 +88,25 @@
       <screen x="0" y="0" width="1364" height="728" />
     </state>
     <state x="463" y="156" key="FileChooserDialogImpl/0.0.1364.728@0.0.1364.728" timestamp="1581022942827" />
-    <state width="1321" height="324" key="GridCell.Tab.0.bottom" timestamp="1581808293204">
+    <state width="1321" height="324" key="GridCell.Tab.0.bottom" timestamp="1581808495835">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="324" key="GridCell.Tab.0.bottom/0.0.1364.728@0.0.1364.728" timestamp="1581808293204" />
+    <state width="1321" height="324" key="GridCell.Tab.0.bottom/0.0.1364.728@0.0.1364.728" timestamp="1581808495835" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581082984664" />
-    <state width="1321" height="324" key="GridCell.Tab.0.center" timestamp="1581808293204">
+    <state width="1321" height="324" key="GridCell.Tab.0.center" timestamp="1581808495835">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="324" key="GridCell.Tab.0.center/0.0.1364.728@0.0.1364.728" timestamp="1581808293204" />
+    <state width="1321" height="324" key="GridCell.Tab.0.center/0.0.1364.728@0.0.1364.728" timestamp="1581808495835" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581082984663" />
-    <state width="1321" height="324" key="GridCell.Tab.0.left" timestamp="1581808293204">
+    <state width="1321" height="324" key="GridCell.Tab.0.left" timestamp="1581808495835">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="324" key="GridCell.Tab.0.left/0.0.1364.728@0.0.1364.728" timestamp="1581808293204" />
+    <state width="1321" height="324" key="GridCell.Tab.0.left/0.0.1364.728@0.0.1364.728" timestamp="1581808495835" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581082984663" />
-    <state width="1321" height="324" key="GridCell.Tab.0.right" timestamp="1581808293204">
+    <state width="1321" height="324" key="GridCell.Tab.0.right" timestamp="1581808495835">
       <screen x="0" y="0" width="1364" height="728" />
     </state>
-    <state width="1321" height="324" key="GridCell.Tab.0.right/0.0.1364.728@0.0.1364.728" timestamp="1581808293204" />
+    <state width="1321" height="324" key="GridCell.Tab.0.right/0.0.1364.728@0.0.1364.728" timestamp="1581808495835" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581082984664" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1581628241054">
       <screen x="0" y="0" width="1364" height="728" />
