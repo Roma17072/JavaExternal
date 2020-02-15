@@ -3,10 +3,8 @@
 ## *This is the list of my tasks*
 - Task 0 [JavaExternal](https://github.com/Roma17072/JavaExternal)
 - Task 1 [Topolya](https://github.com/Roma17072/JavaExternal02)
-- Task 2 :
-  * First branch [MVC JavaGame](https://github.com/Roma17072/JavaExternal/tree/JavaGame)
-  * Final branch [MVC JavaGameFinal](https://github.com/Roma17072/JavaExternal/tree/JavaGameMVCfinal)
-
+- Task 2 [MVC JavaGame](https://github.com/Roma17072/JavaExternal/tree/JavaGame)
+ 
 
 
 Author
