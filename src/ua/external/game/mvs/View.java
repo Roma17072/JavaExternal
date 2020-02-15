@@ -1,23 +1,77 @@
 package ua.external.game.mvs;
+import java.util.Locale;
+import java.util.ResourceBundle;
 
 public class View {
-    public static final String WRONG_INPUT_DATA ="Wrong input! Repeat please! ";
-    public static final String ATTEMPT= "Attempt number  ";
-    public static final String VALUE_LESS = " is less then unknown number";
-    public static final String VALUE_MORE = " is more then unknown number";
-    public static final String WIN_FIRST_ATTEMPT = "Congratulation you win with first attempt :)";
-    public static final String Lose = "Sorry, you lose :(\nYou use all attempts";
-    public void printMessage(String message){
+// text for message
+    public static final String MESSAGES_BUNDLE_NAME = "property.messages";
+    public static final String CHOSE_LANGUAGE ="Chose language please:\n1 English\n2 Ukrainian";
+    public static final String EQUAL_SING = "=";
+    public static final String SPACE_SING = " ";
+    public static final String FROM = "string.from";
+    public static final String TILL = "string.till";
+    public static final String GAME_STORY = "finish.story";
+    public static final String WELCOME = "start.welcome";
+    public static final String INPUT_INT_DATA = "input.data";
+    public static final String WRONG_INPUT_DATA = "input.wrong";
+    public static final String WRONG_INPUT_LANGUAGE = "Wrong input! Repeat please!";
+    public static final String WIN = "finish.win";
+    public ResourceBundle bundle;
+//  view Language
+    public void viewLanguage(int i){
+         String country = "";
+         String language = "";
+         switch (i) {
+            case 1:
+                country = ("US");
+                language = ("en");
+                break;
+            case 2:
+                country = ("UA");
+                language = ("uk");
+                break;
+        }
+        Locale current = new Locale(language, country);
+        bundle = ResourceBundle.getBundle(MESSAGES_BUNDLE_NAME, current);
+    }
+
+
+    public void printMessage(String message) {
         System.out.println(message);
     }
-    public void printWelcome(int min_limit, int max_limit){
-        System.out.println("Welcome to the Java Game");
-        System.out.println("Guess the integer between " + min_limit + " and " + max_limit);
+
+    public void printWelcome() {
+        printMessage(bundle.getString(WELCOME));
     }
-    public void inputInteger(int min_limit, int max_limit){
-        System.out.println("Input the integer please between " + min_limit + " and " + max_limit);
+
+    private String concatenationString(String... message) {
+        StringBuilder concatString = new StringBuilder();
+        for (String v : message) {
+            concatString = concatString.append(v);
+        }
+        return new String(concatString);
     }
-    public void printWin(int integer) {
-        System.out.println("Congratulation you win :)\nYou use "+ integer + " attempts");
+
+    String getInputMessage(int min_limit, int max_limit) {
+        String str = concatenationString(bundle.getString(INPUT_INT_DATA),
+                SPACE_SING, bundle.getString(FROM), SPACE_SING,
+                String.valueOf(min_limit), SPACE_SING, bundle.getString(TILL),
+                SPACE_SING, String.valueOf(max_limit), SPACE_SING, EQUAL_SING);
+        return str;
+    }
+
+    public void wrongInput() {
+        printMessage(bundle.getString(WRONG_INPUT_DATA));
+    }
+
+    public void printWin() {
+        printMessage(bundle.getString(WIN));
+    }
+
+    public void printStory(Model modelImplementation) {
+        printMessage(bundle.getString(GAME_STORY) +
+                String.valueOf(modelImplementation.getUserValue()));
     }
 }
+
+
