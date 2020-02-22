@@ -8,6 +8,7 @@
   * [v0.1 Battle Droid OOP](https://github.com/Roma17072/BattleDroid)
   * [v0.2 Battle Droid MVC](https://github.com/Roma17072/BattleDroid/tree/BattleDroidVer2)
   * [v0.3 Battle Droid with pattern strategy and factory](https://github.com/Roma17072/BattleDroid/tree/BattleDroidVer3)
+  * [v0.4 Battle Droid with User and Admin](https://github.com/Roma17072/BattleDroid/tree/BattleDroidVer4)
  
 
 
