@@ -4,11 +4,12 @@
 - Task 0 [JavaExternal](https://github.com/Roma17072/JavaExternal)
 - Task 1 [Topolya](https://github.com/Roma17072/JavaExternal02)
 - Task 2 [MVC JavaGame](https://github.com/Roma17072/JavaExternal/tree/JavaGame)
-- Task 3 Battle Droid
+- Task 3 [Battle Droid](https://github.com/Roma17072/BattleDroid)
   * [v0.1 Battle Droid OOP](https://github.com/Roma17072/BattleDroid)
   * [v0.2 Battle Droid MVC](https://github.com/Roma17072/BattleDroid/tree/BattleDroidVer2)
   * [v0.3 Battle Droid with pattern strategy and factory](https://github.com/Roma17072/BattleDroid/tree/BattleDroidVer3)
   * [v0.4 Battle Droid with User and Admin](https://github.com/Roma17072/BattleDroid/tree/BattleDroidVer4)
+  * [v0.5 Battle Droid with jUnit test](https://github.com/Roma17072/BattleDroid/tree/BattleDroidver5)
  
 
 
