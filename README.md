@@ -12,7 +12,7 @@
   * [v0.5 Battle Droid with jUnit test](https://github.com/Roma17072/BattleDroid/tree/BattleDroidver5)
   * [v0.6 Battle Droid with sort](https://github.com/Roma17072/BattleDroid/tree/BattleDroidVersion6)
   * [v0.7 Battle Droid with serialize](https://github.com/Roma17072/BattleDroid/tree/BattleDroidVersion7)
-  * [v0.8 Battle Droid whith log]()
+  * [v0.8 Battle Droid whith log](https://github.com/Roma17072/BattleDroid/tree/BattleDroidVer8)
  
 
 
