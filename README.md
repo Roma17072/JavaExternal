@@ -10,6 +10,9 @@
   * [v0.3 Battle Droid with pattern strategy and factory](https://github.com/Roma17072/BattleDroid/tree/BattleDroidVer3)
   * [v0.4 Battle Droid with User and Admin](https://github.com/Roma17072/BattleDroid/tree/BattleDroidVer4)
   * [v0.5 Battle Droid with jUnit test](https://github.com/Roma17072/BattleDroid/tree/BattleDroidver5)
+  * [v0.6 Battle Droid with sort](https://github.com/Roma17072/BattleDroid/tree/BattleDroidVersion6)
+  * [v0.7 Battle Droid with serialize](https://github.com/Roma17072/BattleDroid/tree/BattleDroidVersion7)
+  * [v0.8 Battle Droid whith log]()
  
 
 
