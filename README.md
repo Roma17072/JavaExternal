@@ -14,6 +14,8 @@
   * [v0.7 Battle Droid with serialize](https://github.com/Roma17072/BattleDroid/tree/BattleDroidVersion7)
   * [v0.8 Battle Droid whith log](https://github.com/Roma17072/BattleDroid/tree/BattleDroidVer8)
 - Task 4 [Shakespeare](https://github.com/Roma17072/shakespeareJava)
+- Task 5 [Weather Station with pattern Observer](https://github.com/Roma17072/WeatherStation)
+- Task 6 [Diamond fund](https://github.com/Roma17072/DiamondFund)
  
 
 
