@@ -16,7 +16,7 @@
 - Task 4 [Shakespeare](https://github.com/Roma17072/shakespeareJava)
 - Task 5 [Weather Station with pattern Observer](https://github.com/Roma17072/WeatherStation)
 - Task 6 [Diamond fund](https://github.com/Roma17072/DiamondFund)
- 
+  * [v0.1 with marshall and unmarshal](https://github.com/Roma17072/DiamondFund/tree/DiamondFundversion01/src/main)
 
 
 Author
